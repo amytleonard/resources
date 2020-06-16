@@ -18,11 +18,7 @@ brew install kubernetes-cli azure-cli
 brew cask install virtualbox
 brew cask install docker
 brew cask install vagrant
-brew cask install hammerspoon
 brew cask install atom
-brew cask install clipy
-brew cask install skitch
-brew cask install wireshark
 
 # Atom Stuff
 apm install atom-beautify
