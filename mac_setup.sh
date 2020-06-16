@@ -9,6 +9,7 @@ brew tap drone/drone
 # CI / CM
 brew install drone ansible consul vault
 # Basic utilities
+brew cask install iterm2
 brew install curl wget zsh zsh-completions zsh-syntax-highlighting
 # Cloud CLIs
 brew install kubernetes-cli azure-cli
