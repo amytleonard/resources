@@ -11,6 +11,7 @@ brew install drone ansible consul vault
 # Basic utilities
 brew cask install iterm2
 brew install curl wget zsh zsh-completions zsh-syntax-highlighting
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # Cloud CLIs
 brew install kubernetes-cli azure-cli
 
