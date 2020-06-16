@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Bootstrap brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-git -C "$(brew --repo homebrew/core)" fetch --unshallow
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 
 # Basic Brew workstation packages
 brew install git
